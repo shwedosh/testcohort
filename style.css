@@ -1,0 +1,43 @@
+body {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+    height: 100vh;
+  text-align: center;
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#333
+
+}
+
+img {
+  height: 125px;
+  border-radius: 8px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 8px 8px #c0bebe;
+}
+
+a {
+  color: #0d97d3;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .75;
+}
+
+.dark {
+  background: linear-gradient(to right, #000428, #004e92);
+  color: white;
+  
+}
+
+.dark .card {
+  background: #000428;
+}
